@@ -1,8 +1,9 @@
 
-mod tile;
-use std::fmt;
+use crate::tile::Tile;
+//use std::fmt;
 
+const N: usize = 10;
 
-struct Room {
+pub struct Room {
     grid: [[Tile; N]; N]
 }
